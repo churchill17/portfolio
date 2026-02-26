@@ -1,0 +1,19 @@
+.contact-hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: auto;
+}
+
+.contact-hero p {
+  width: 50%;
+}
+
+.contact-footer {
+  margin-top: 50px;
+  padding-top: 50px;
+}

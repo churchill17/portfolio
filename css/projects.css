@@ -1,0 +1,56 @@
+.project {
+  display: flex;
+  align-items: center;
+}
+
+.proj-exp {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.proj {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.proj a {
+  text-decoration: none;
+  color: var(--deepSpaceBlue);
+}
+
+.proj h2 {
+  font-size: 18px;
+}
+
+.proj p {
+  font-size: 16px;
+}
+
+.proj h3 {
+  font-size: 17px;
+  display: flex;
+  gap: 10px;
+}
+
+.exp {
+  background: var(--light-blue);
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.exp img {
+  width: 60px;
+  height: 60px;
+}
+
+.exp p {
+  font-size: 14px;
+  text-align: center;
+}
+
+footer a {
+  color: var(--steelBlue);
+  text-decoration: none;
+}

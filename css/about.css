@@ -1,0 +1,39 @@
+.soft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.applications {
+  display: flex;
+  align-self: center;
+  font-size: 30px;
+  text-align: center;
+}
+
+.soft-exp {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.exp {
+  background: var(--light-blue);
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.exp img {
+  width: 60px;
+  height: 60px;
+}
+
+.exp p {
+  font-size: 14px;
+  text-align: center;
+}
+
+footer a {
+  color: var(--steelBlue);
+  text-decoration: none;
+}
